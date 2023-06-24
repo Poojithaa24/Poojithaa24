@@ -12,7 +12,7 @@ def gcd(a,b):
     #Finding the factors of b  
   for i in range(1,b+1):
     if(b%i==0):
-      fact_b.append(i)        #appends the list fact_a with factors of a
+      fact_b.append(i)         #appends the list fact_a with factors of a
 
     #For finding the common factors of a and b
   for i in fact_a:
